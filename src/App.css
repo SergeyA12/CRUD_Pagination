@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+table {
+  border: 2px solid rgb(6, 1, 24);
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 2px solid rgb(6, 1, 24);
+  padding: 12px;
+  text-align: left;
+}
+
+/* th {
+  background-color: lightgray;
+} */
+
+td a {
+  color: blue;
+  text-decoration: none;
+}
+/* 
+td a:hover {
+  text-decoration: underline;
+} */
+.form-input {
+  padding: 12px;
+  background: black;
+  color: rgb(133, 20, 20);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: 13;
+  outline: none;
+}
+
+/* .form-label {
+  font-size: 16px;
+  color: rgb(146, 24, 24);
+  margin-bottom: 5px;
+} */
+
+.form-button {
+  padding: 8px 24px;
+  background-color: black;
+  color: rgb(133, 20, 20);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.form-button:hover {
+  background-color: rgb(58, 7, 7);
+}
+
+.form-button-edit {
+  padding: 8px 24px;
+  background-color: rgb(49, 65, 54);
+  color: rgb(133, 20, 20);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.form-button-edit:hover {
+  background-color: rgb(73, 189, 102);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
